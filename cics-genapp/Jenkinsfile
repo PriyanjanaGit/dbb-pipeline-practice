@@ -9,7 +9,7 @@ def zOsAgentLabel = env.ZOS_AGENT_LABEL ? env.ZOS_AGENT_LABEL : 'DBB20_zOS-Agent
 def linuxAgent = 'master'
 
 // GIT repositories
-def srcGitRepo = 'https://github.com/PriyanjanaGit/dbb-pipeline-Mar-test.git'
+def srcGitRepo = 'https://github.com/PriyanjanaGit/dbb-pipeline-practice.git'
 def srcGitBranch = 'main'
 def zAppBuildGitRepo = 'https://github.com/PriyanjanaGit/mvpzapp.git'
 def zAppBuildGitBranch = 'sysprintUtil'
