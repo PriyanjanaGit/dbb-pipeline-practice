@@ -47,8 +47,8 @@ def ARTIFACTORY_REPO_PATH='hyc-mvp-team-maven-local/PriyaGenapp'
 
 // UCD
 def ucdApplication = 'RayDemo_App'
-def ucdProcess = 'Proy_Deploy_App_Bind_CICS_WEB_Proc'
-//def ucdProcess = 'Ray_Deploy_App_Bind_CICS_EXT_Proc'
+//def ucdProcess = 'Proy_Deploy_App_Bind_CICS_WEB_Proc'
+def ucdProcess = 'Ray_Deploy_App_Bind_CICS_EXT_Proc'
 def ucdComponent = 'IBMDemo'
 def ucdEnv = 'Dev'
 def ucdSite = 'Jenkins2UCDServer'
