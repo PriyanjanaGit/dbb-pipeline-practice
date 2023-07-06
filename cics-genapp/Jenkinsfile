@@ -38,7 +38,7 @@ def dbbCredentialOptions='-id proy -pf /u/proy/pass.txt --url jdbc:db2://tvt7111
 echo 'cics-genapp Jenkinsfile pipeline Artifactory'
 // Artifactory
 //def artiCredentialsId = 'Priya_artifactory_id'
-def artiCredentialsId = 'Ray_artifactory_id'
+def artiCredentialsId = 'ray_artifactory_id'
 //def artiCredentialsId = 'proyapikey'
 def ARTIFACTORY_URL='https://na.artifactory.swg-devops.com/artifactory/'
 //def ARTIFACTORY_REPO_PATH='hyc-mvp-team-maven-local/MVPGenapp'
