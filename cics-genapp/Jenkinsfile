@@ -37,7 +37,8 @@ def dbbCredentialOptions='-id proy -pf /u/proy/pass.txt --url jdbc:db2://tvt7111
 
 echo 'cics-genapp Jenkinsfile pipeline Artifactory'
 // Artifactory
-def artiCredentialsId = 'Priya_artifactory_id'
+//def artiCredentialsId = 'Priya_artifactory_id'
+def artiCredentialsId = 'Ray_artifactory_id'
 //def artiCredentialsId = 'proyapikey'
 def ARTIFACTORY_URL='https://na.artifactory.swg-devops.com/artifactory/'
 //def ARTIFACTORY_REPO_PATH='hyc-mvp-team-maven-local/MVPGenapp'
@@ -47,8 +48,8 @@ def ARTIFACTORY_REPO_PATH='hyc-mvp-team-maven-local/PriyaGenapp'
 
 // UCD
 def ucdApplication = 'RayDemo_App'
-//def ucdProcess = 'Proy_Deploy_App_Bind_CICS_WEB_Proc'
-def ucdProcess = 'Ray_Deploy_App_Bind_CICS_EXT_Proc'
+def ucdProcess = 'Proy_Deploy_App_Bind_CICS_WEB_Proc'
+//def ucdProcess = 'Ray_Deploy_App_Bind_CICS_EXT_Proc'
 def ucdComponent = 'IBMDemo'
 def ucdEnv = 'Dev'
 def ucdSite = 'Jenkins2UCDServer'
