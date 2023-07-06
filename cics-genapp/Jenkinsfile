@@ -37,19 +37,19 @@ def dbbCredentialOptions='-id proy -pf /u/proy/pass.txt --url jdbc:db2://tvt7111
 
 echo 'cics-genapp Jenkinsfile pipeline Artifactory'
 // Artifactory
-//def artiCredentialsId = 'Priya_artifactory_id'
-def artiCredentialsId = 'ray_artifactory_id'
+def artiCredentialsId = 'Priya_artifactory_id'
+//def artiCredentialsId = 'ray_artifactory_id'
 //def artiCredentialsId = 'proyapikey'
 def ARTIFACTORY_URL='https://na.artifactory.swg-devops.com/artifactory/'
-def ARTIFACTORY_REPO_PATH='hyc-mvp-team-maven-local/MVPGenapp'
-//def ARTIFACTORY_REPO_PATH='hyc-mvp-team-maven-local/PriyaGenapp'
+//def ARTIFACTORY_REPO_PATH='hyc-mvp-team-maven-local/MVPGenapp'
+def ARTIFACTORY_REPO_PATH='hyc-mvp-team-maven-local/PriyaGenapp'
 
 
 
 // UCD
 def ucdApplication = 'RayDemo_App'
-//def ucdProcess = 'Proy_Deploy_App_Bind_CICS_WEB_Proc'
-def ucdProcess = 'Ray_Deploy_App_Bind_CICS_WEB_Proc'
+def ucdProcess = 'Proy_Deploy_App_Bind_CICS_WEB_Proc'
+//def ucdProcess = 'Ray_Deploy_App_Bind_CICS_WEB_Proc'
 def ucdComponent = 'IBMDemo'
 def ucdEnv = 'Dev'
 def ucdSite = 'Jenkins2UCDServer'
@@ -94,8 +94,8 @@ pipeline {
  		DBB_URL='jdbc:db2://tvt7111.svl.ibm.com:5050/DBC1'
         DBB_HLQ='PROY'
         ARTIFACTORY_URL='https://na.artifactory.swg-devops.com/artifactory'
-        ARTIFACTORY_REPO_PATH='hyc-mvp-team-maven-local/MVPGenapp'
-//        ARTIFACTORY_REPO_PATH='hyc-mvp-team-maven-local/PriyaGenapp'
+//        ARTIFACTORY_REPO_PATH='hyc-mvp-team-maven-local/MVPGenapp'
+        ARTIFACTORY_REPO_PATH='hyc-mvp-team-maven-local/PriyaGenapp'
         UCD_BUZTOOL_PATH='/var/ucd/v73/bin/buztool.sh'
         UCD_HOME='/var/ucd/v73'
         _BPX_JOBNAME = 'JENJOB'
